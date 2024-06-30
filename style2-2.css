@@ -1,0 +1,32 @@
+p{
+    font-family: "Black Han Sans", sans-serif;/*구글폰트에서 폰트를 찾아 적용*/
+    font-weight: thin;/*폰트 굵기 설정*/
+    font-size: 30px;/*폰트크기변경*/
+    color: skyblue;
+    text-align: center;/*가운데정렬*/
+    text-decoration:underline;/*밑줄*/
+    text-transform: lowercase;/*대소문자변경*/
+    line-height: 3;/*문단간 거리*/
+    letter-spacing: -4px;/*글자사이 거리*/
+
+    -webkit-text-stroke: 1px gray ;
+}
+.box{
+    width: 100px;
+    height: 100px;
+    margin-left: 48%;
+    margin-top: 50px;
+    background-color: pink;
+
+    transform: rotate(45deg);
+    transition: 2s;
+}
+p:hover{/*마우스 호버시 발생*/
+    color: red;
+    font-size: 31px;
+    transition: all;
+    -webkit-text-stroke: 1px black;
+    transition-delay: 0.1s;
+    transition-duration: 0.5s;
+    filter: blur(1px);
+}

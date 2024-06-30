@@ -1,0 +1,15 @@
+
+#div_box{
+    width: 500px;
+    height: 400px;
+    background-color: pink;
+
+    border: 10px solid black;/*테투리를 만들어줌. 뒤에 - top or botton등 방향을 입력해 한쪽만 적용 가능 */
+    border-radius: 30px;
+    /*테두리를 원형 모형으로 만들어줌*/
+    background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLcS510eMXJsb2JcsCxtzHyxv2k6VP7m-9wQ&s) ;
+    /*배경에 이미지를 넣는방법()안에 사용할 이미지가 있는 위치나 주소를 입력하면된다*/
+    background-size:contain;
+    /*넣은 이미지를 해당 블록에 맞게 조율 할수 있다.*/
+    
+}
